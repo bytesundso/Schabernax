@@ -1,14 +1,15 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.bytesundso.schabernax.mixin",
+  "package": "net.bytesundso.schabernax.core",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ClientPlayNetworkHandlerMixin",
-    "ClientConnectionMixin",
-    "IPlayerMoveC2SPacket",
-    "IVehicleMoveC2SPacket",
-    "DemoScreenMixin"
+    "interceptor.ClientPlayNetworkHandlerInterceptor",
+    "interceptor.ClientConnectionInterceptor",
+    "interceptor.WorldBorderInitializeS2CPacketInterceptor",
+    "interceptor.DemoServerPlayerInteractionManagerInterceptor",
+    "interfaces.IPlayerMoveC2SPacket",
+    "interfaces.IVehicleMoveC2SPacket"
   ],
   "client": [
   ],

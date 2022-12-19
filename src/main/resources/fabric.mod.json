@@ -6,7 +6,7 @@
   "name": "Schabernax",
   "description": "Simple Fabric mod to learn Minecraft Modding",
   "authors": [
-    "Me!"
+    "bytesundso"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -18,12 +18,6 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.bytesundso.schabernax.Schabernax"
-    ],
-    "client": [
-      "net.bytesundso.schabernax.SchabernaxClient"
-    ]
   },
   "mixins": [
     "schabernax.mixins.json"
