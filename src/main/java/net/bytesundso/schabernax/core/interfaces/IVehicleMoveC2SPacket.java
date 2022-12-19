@@ -1,4 +1,4 @@
-package net.bytesundso.schabernax.mixin;
+package net.bytesundso.schabernax.core.interfaces;
 
 import net.minecraft.network.packet.c2s.play.VehicleMoveC2SPacket;
 import org.spongepowered.asm.mixin.Mixin;

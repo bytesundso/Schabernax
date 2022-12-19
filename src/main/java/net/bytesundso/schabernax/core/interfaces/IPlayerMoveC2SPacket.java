@@ -1,7 +1,7 @@
-package net.bytesundso.schabernax.mixin;
-
+package net.bytesundso.schabernax.core.interfaces;
 
 import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
+
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Mutable;
 import org.spongepowered.asm.mixin.gen.Accessor;
@@ -19,9 +19,4 @@ public interface IPlayerMoveC2SPacket {
     @Mutable
     @Accessor("z")
     void setZ(double z);
-
-    @Mutable
-    @Accessor("onGround")
-    public void setOnground(boolean onGround);
-
 }
